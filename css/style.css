@@ -118,3 +118,15 @@ a {
 .sessao-bemvindo-btn:hover, form input[type=submit]:hover {
 	background-color: #2790C6;
 }
+
+#sessao-sobre .sessao-minibanner {
+	float: right;
+	margin-right: 50px;
+	background-image: url('../assets/img/banner4.jpg');
+}
+
+#sessao-sobre .sessao-descricao {
+	position: absolute;
+	left: 25px;
+	width: calc(100% - 400px);
+}
