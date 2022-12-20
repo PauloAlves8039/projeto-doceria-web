@@ -1,40 +1,41 @@
 html {
-    font-family: 'Open sans', 'sans-serif';
-    color: #373A3C;
+	font-family: 'Open sans', 'sans-serif';
+	color: #373A3C;
 }
 
 a {
-    transition: .5s;
+	transition: .5s;
 }
 
 #sidebar {
-    position: fixed;
-    height: 100%;
-    width: 300px;
-    background-color: #006599;
-    padding: 40px;
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color: #006599;
+	padding-top: 40px;
 }
 
 #sidebar h1 {
-    color: #FFF;
-    font-size: 32px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+	color: #FFF;
+	font-size: 32px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 #sidebar a {
-    color: #FFF;
-    text-decoration: none;
-    font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 16px;
 }
 
 #sidebar a:hover {
-    color: #F4EF5E;
+	color: #F4EC06;
+	font-weight: 500;
 }
 
 #sidebar li {
-    padding: 20px;
+	padding: 20px;
 }
 
 .sidebar-container {
@@ -53,6 +54,29 @@ a {
 	margin-right: auto;
 }
 
+.content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+}
+
+.content h1, .content h2 {
+	color: #006599;
+	margin-bottom: 30px;
+}
+
+.content h1 {
+	font-size: 48px;
+}
+
+.content h2 {
+	font-size: 35px;
+}
+
+section {
+	padding-left: 50px;
+}
+
 #sessao-bemvindo {
 	padding-left: 0;
 }
@@ -63,7 +87,7 @@ a {
 
 #sessao-bemvindo .banner {
 	height: 500px;
-	background-image: url('../img/banner2.jpg');
+	background-image: url('../assets/img/banner2.jpg');
 	background-position: center;
 	background-size: cover;
 }
@@ -82,7 +106,7 @@ a {
 .sessao-minibanner {
 	width: 300px;
 	height: 400px;
-	background-image: url('../img/banner3.jpg');
+	background-image: url('../assets/img/banner3.jpg');
 	background-position: center;
 	background-size: cover;
 	float: left;
