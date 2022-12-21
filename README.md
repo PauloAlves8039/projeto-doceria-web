@@ -14,6 +14,7 @@ Repositório de uma página web para simular a divulgação de uma doceria, cód
 ## :camera: Screenshots
 
 <p align="center"> <img src="https://github.com/PauloAlves8039/projeto-doceria-web/blob/master/assets/img/screenshot.png" /> </p>
+<p align="center"> <img src="https://github.com/PauloAlves8039/projeto-doceria-web/blob/master/assets/img/screenshot-1.png" /> </p>
 
 ## Author
 
